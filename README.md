@@ -1,11 +1,11 @@
-# @atroo/capacitor-secure-storage-plugin
+# @well-projects/capacitor-secure-storage
 
 Securely store secrets such as usernames, passwords, tokens, certificates or other sensitive information (strings) on iOS & Android
 
 ## Install
 
 ```bash
-npm install @atroo/capacitor-secure-storage-plugin
+npm install @well-projects/capacitor-secure-storage
 npx cap sync
 ```
 

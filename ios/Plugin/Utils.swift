@@ -1,6 +1,6 @@
 //
 //  Utils.swift
-//  AtrooCapacitorSecureStoragePlugin
+//  WellProjectsCapacitorSecureStorage
 //
 //  Created by Laszlo Blum on 2023. 10. 29..
 //
