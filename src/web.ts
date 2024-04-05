@@ -38,7 +38,7 @@ export class SecureStoragePluginWeb extends WebPlugin implements SecureStoragePl
     return Promise.resolve({ value: true });
   }
   keys(): Promise<{ value: string[] }> {
-    const keys = Object.keys(localStorage).filter((k) => k.indexOf(this.PREFIX) === 0);
+    const keys = Object.keys(localStorage).filter((k) => k.indexOf(this.PREFIX) === 0).map(this.removePrefix);
     return Promise.resolve({ value: keys });
   }
 
@@ -47,6 +47,7 @@ export class SecureStoragePluginWeb extends WebPlugin implements SecureStoragePl
   }
 
   private addPrefix = (key: string) => this.PREFIX + key;
+  private removePrefix = (key: string) => key.replace(this.PREFIX, '');
 }
 
 const SecureStoragePlugin = new SecureStoragePluginWeb();
