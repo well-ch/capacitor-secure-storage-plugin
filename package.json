@@ -13,14 +13,11 @@
     "ios/Plugin/",
     "WellProjectsCapacitorSecureStorage.podspec"
   ],
-  "author": "Laszlo Blum (Atroo Gmbh)",
+  "author": "Well Gesundheit AG",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/well-ch/capacitor-secure-storage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/well-ch/capacitor-secure-storage.git/issues"
+    "url": "git+https://github.com/well-ch/capacitor-secure-storage-plugin.git"
   },
   "keywords": [
     "capacitor",
